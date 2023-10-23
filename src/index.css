@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .form-input {
+    @apply px-3 py-2 border-2 border-gray-400 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-gray-100 focus:border-gray-500/90
+  }
+
+  .form-select {
+    @apply px-3 py-2 border-2 border-gray-400 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-gray-100 focus:border-gray-500/90
+  }
+
+  .form-textarea {
+    @apply px-3 py-2 border-2 border-gray-400 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-gray-100 focus:border-gray-500/90
+  }
+}
